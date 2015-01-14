@@ -10,6 +10,42 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		290DBA901A6666AB006998CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503AE10317EB98FF00D1A890 /* main.cpp */; };
+		290DBA921A6666AB006998CB /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BA599119D492B60070A133 /* libcocos2d Mac.a */; };
+		290DBA931A6666AB006998CB /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 503AE11117EB99EE00D1A890 /* libcurl.dylib */; };
+		290DBA941A6666AB006998CB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
+		290DBA951A6666AB006998CB /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503AE11A17EB9C5A00D1A890 /* IOKit.framework */; };
+		290DBA961A6666AB006998CB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087E78A17EB975400C73F5D /* OpenGL.framework */; };
+		290DBA971A6666AB006998CB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087E78817EB974C00C73F5D /* AppKit.framework */; };
+		290DBA981A6666AB006998CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		290DBA991A6666AB006998CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		290DBA9A1A6666AB006998CB /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
+		290DBA9B1A6666AB006998CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
+		290DBA9C1A6666AB006998CB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
+		290DBAA61A6666ED006998CB /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290DBAA21A6666ED006998CB /* AppDelegate.cpp */; };
+		290DBAA71A6666ED006998CB /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290DBAA21A6666ED006998CB /* AppDelegate.cpp */; };
+		290DBAA81A6666ED006998CB /* Chapter14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290DBAA41A6666ED006998CB /* Chapter14.cpp */; };
+		290DBAA91A6666ED006998CB /* Chapter14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290DBAA41A6666ED006998CB /* Chapter14.cpp */; };
+		290DBAAD1A666830006998CB /* grossini-aliases.plist in Resources */ = {isa = PBXBuildFile; fileRef = 290DBAAB1A666830006998CB /* grossini-aliases.plist */; };
+		290DBAAE1A666830006998CB /* grossini-aliases.png in Resources */ = {isa = PBXBuildFile; fileRef = 290DBAAC1A666830006998CB /* grossini-aliases.png */; };
+		290DBAC81A6668BF006998CB /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
+		290DBAC91A6668BF006998CB /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FF17EB989F00D1A890 /* RootViewController.mm */; };
+		290DBACB1A6668BF006998CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
+		290DBACD1A6668BF006998CB /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BA599319D492B60070A133 /* libcocos2d iOS.a */; };
+		290DBACE1A6668BF006998CB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
+		290DBACF1A6668BF006998CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		290DBAD01A6668BF006998CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		290DBAD11A6668BF006998CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		290DBAD21A6668BF006998CB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
+		290DBAD31A6668BF006998CB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
+		290DBAD41A6668BF006998CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		290DBAD51A6668BF006998CB /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
+		290DBAD61A6668BF006998CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
+		290DBAD71A6668BF006998CB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
+		290DBADD1A6668F9006998CB /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290DBAA21A6666ED006998CB /* AppDelegate.cpp */; };
+		290DBADE1A6668F9006998CB /* Chapter14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290DBAA41A6666ED006998CB /* Chapter14.cpp */; };
+		290DBADF1A666901006998CB /* grossini-aliases.plist in Resources */ = {isa = PBXBuildFile; fileRef = 290DBAAB1A666830006998CB /* grossini-aliases.plist */; };
+		290DBAE01A666901006998CB /* grossini-aliases.png in Resources */ = {isa = PBXBuildFile; fileRef = 290DBAAC1A666830006998CB /* grossini-aliases.png */; };
 		296358BC19F78D4F003732AB /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77617EB970100C73F5D /* Icon-120.png */; };
 		296358BE19F78D4F003732AB /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77B17EB970100C73F5D /* Icon-76.png */; };
 		296358BF19F78D4F003732AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77417EB970100C73F5D /* Default@2x.png */; };
@@ -635,6 +671,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		290DBA871A6666AB006998CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50BA598B19D492B60070A133 /* cocos2d_libs.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1551A33E158F2AB200E66CFE;
+			remoteInfo = "libcocos2d Mac";
+		};
+		290DBAB11A6668BF006998CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50BA598B19D492B60070A133 /* cocos2d_libs.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A07A4C241783777C0073F6A7;
+			remoteInfo = "libcocos2d iOS";
+		};
 		296358BA19F78D4F003732AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 50BA598B19D492B60070A133 /* cocos2d_libs.xcodeproj */;
@@ -783,6 +833,16 @@
 		1D6058910D05DD3D006BFB54 /* Chapter 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		290DBAA01A6666AB006998CB /* Chapter 14 Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 14 Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290DBAA11A6666AB006998CB /* Chapter 13 Mac copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Chapter 13 Mac copy-Info.plist"; path = "/Users/guanghui/Github/programmers-guide-samples/proj.ios_mac/Chapter 13 Mac copy-Info.plist"; sourceTree = "<absolute>"; };
+		290DBAA21A6666ED006998CB /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = chapter14/AppDelegate.cpp; sourceTree = "<group>"; };
+		290DBAA31A6666ED006998CB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = chapter14/AppDelegate.h; sourceTree = "<group>"; };
+		290DBAA41A6666ED006998CB /* Chapter14.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Chapter14.cpp; path = chapter14/Chapter14.cpp; sourceTree = "<group>"; };
+		290DBAA51A6666ED006998CB /* Chapter14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chapter14.h; path = chapter14/Chapter14.h; sourceTree = "<group>"; };
+		290DBAAB1A666830006998CB /* grossini-aliases.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "grossini-aliases.plist"; path = "chapter14/grossini-aliases.plist"; sourceTree = "<group>"; };
+		290DBAAC1A666830006998CB /* grossini-aliases.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grossini-aliases.png"; path = "chapter14/grossini-aliases.png"; sourceTree = "<group>"; };
+		290DBADB1A6668BF006998CB /* Chapter 14 iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 14 iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290DBADC1A6668BF006998CB /* Chapter 13 iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Chapter 13 iOS copy-Info.plist"; path = "/Users/guanghui/Github/programmers-guide-samples/proj.ios_mac/Chapter 13 iOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		296358F119F78D4F003732AB /* Chapter 6 iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 6 iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		296358F419F78D81003732AB /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = chapter6/AppDelegate.cpp; sourceTree = "<group>"; };
 		296358F519F78D81003732AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = chapter6/AppDelegate.h; sourceTree = "<group>"; };
@@ -985,6 +1045,42 @@
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290DBA911A6666AB006998CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290DBA921A6666AB006998CB /* libcocos2d Mac.a in Frameworks */,
+				290DBA931A6666AB006998CB /* libcurl.dylib in Frameworks */,
+				290DBA941A6666AB006998CB /* libz.dylib in Frameworks */,
+				290DBA951A6666AB006998CB /* IOKit.framework in Frameworks */,
+				290DBA961A6666AB006998CB /* OpenGL.framework in Frameworks */,
+				290DBA971A6666AB006998CB /* AppKit.framework in Frameworks */,
+				290DBA981A6666AB006998CB /* Foundation.framework in Frameworks */,
+				290DBA991A6666AB006998CB /* QuartzCore.framework in Frameworks */,
+				290DBA9A1A6666AB006998CB /* OpenAL.framework in Frameworks */,
+				290DBA9B1A6666AB006998CB /* AVFoundation.framework in Frameworks */,
+				290DBA9C1A6666AB006998CB /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290DBACC1A6668BF006998CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290DBACD1A6668BF006998CB /* libcocos2d iOS.a in Frameworks */,
+				290DBACE1A6668BF006998CB /* CoreMotion.framework in Frameworks */,
+				290DBACF1A6668BF006998CB /* Foundation.framework in Frameworks */,
+				290DBAD01A6668BF006998CB /* UIKit.framework in Frameworks */,
+				290DBAD11A6668BF006998CB /* CoreGraphics.framework in Frameworks */,
+				290DBAD21A6668BF006998CB /* OpenGLES.framework in Frameworks */,
+				290DBAD31A6668BF006998CB /* libz.dylib in Frameworks */,
+				290DBAD41A6668BF006998CB /* QuartzCore.framework in Frameworks */,
+				290DBAD51A6668BF006998CB /* OpenAL.framework in Frameworks */,
+				290DBAD61A6668BF006998CB /* AVFoundation.framework in Frameworks */,
+				290DBAD71A6668BF006998CB /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1334,8 +1430,30 @@
 				2963594219F78F74003732AB /* Chapter 6 Mac.app */,
 				7E914A6E1A1BC3F200C6B2D4 /* Chapter 5 iOS.app */,
 				7E914A8B1A1BC40200C6B2D4 /* Chapter 5 Mac.app */,
+				290DBAA01A6666AB006998CB /* Chapter 14 Mac.app */,
+				290DBADB1A6668BF006998CB /* Chapter 14 iOS.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		290DBA841A666663006998CB /* chapter14 */ = {
+			isa = PBXGroup;
+			children = (
+				290DBAA21A6666ED006998CB /* AppDelegate.cpp */,
+				290DBAA31A6666ED006998CB /* AppDelegate.h */,
+				290DBAA41A6666ED006998CB /* Chapter14.cpp */,
+				290DBAA51A6666ED006998CB /* Chapter14.h */,
+			);
+			name = chapter14;
+			sourceTree = "<group>";
+		};
+		290DBAAA1A666821006998CB /* chapter14 */ = {
+			isa = PBXGroup;
+			children = (
+				290DBAAB1A666830006998CB /* grossini-aliases.plist */,
+				290DBAAC1A666830006998CB /* grossini-aliases.png */,
+			);
+			name = chapter14;
 			sourceTree = "<group>";
 		};
 		296358F319F78D6F003732AB /* chapter6 */ = {
@@ -1386,6 +1504,8 @@
 				080E96DDFE201D6D7F000001 /* ios */,
 				503AE10617EB990700D1A890 /* mac */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				290DBAA11A6666AB006998CB /* Chapter 13 Mac copy-Info.plist */,
+				290DBADC1A6668BF006998CB /* Chapter 13 iOS copy-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1480,6 +1600,7 @@
 		50BA599819D493310070A133 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				290DBA841A666663006998CB /* chapter14 */,
 				50BA599919D493310070A133 /* chapter2 */,
 				7EBF317419E7807500A7FBEA /* chapter3 */,
 				7E53689C19EC20C8005C3C64 /* chapter4 */,
@@ -1522,6 +1643,7 @@
 		50C48A8B19D48B48008185B1 /* res */ = {
 			isa = PBXGroup;
 			children = (
+				290DBAAA1A666821006998CB /* chapter14 */,
 				296358FC19F78ED4003732AB /* chapter6 */,
 				7EC0CFC819ECD2FD00C41BDA /* dot.png */,
 				50BA59A419D498F00070A133 /* chapter2 */,
@@ -1728,6 +1850,42 @@
 			name = "Chapter 2 iOS";
 			productName = iphone;
 			productReference = 1D6058910D05DD3D006BFB54 /* Chapter 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		290DBA851A6666AB006998CB /* Chapter 14 Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290DBA9D1A6666AB006998CB /* Build configuration list for PBXNativeTarget "Chapter 14 Mac" */;
+			buildPhases = (
+				290DBA881A6666AB006998CB /* Resources */,
+				290DBA8D1A6666AB006998CB /* Sources */,
+				290DBA911A6666AB006998CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290DBA861A6666AB006998CB /* PBXTargetDependency */,
+			);
+			name = "Chapter 14 Mac";
+			productName = iphone;
+			productReference = 290DBAA01A6666AB006998CB /* Chapter 14 Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		290DBAAF1A6668BF006998CB /* Chapter 14 iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290DBAD81A6668BF006998CB /* Build configuration list for PBXNativeTarget "Chapter 14 iOS" */;
+			buildPhases = (
+				290DBAB21A6668BF006998CB /* Resources */,
+				290DBAC61A6668BF006998CB /* Sources */,
+				290DBACC1A6668BF006998CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290DBAB01A6668BF006998CB /* PBXTargetDependency */,
+			);
+			name = "Chapter 14 iOS";
+			productName = iphone;
+			productReference = 290DBADB1A6668BF006998CB /* Chapter 14 iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		296358B819F78D4F003732AB /* Chapter 6 iOS */ = {
@@ -2087,6 +2245,8 @@
 				3EE7F8EE19ED607800448914 /* Chapter 12 Mac */,
 				7E95720219F197BA00F6AE44 /* Chapter 13 iOS */,
 				7E95722C19F197F500F6AE44 /* Chapter 13 Mac */,
+				290DBA851A6666AB006998CB /* Chapter 14 Mac */,
+				290DBAAF1A6668BF006998CB /* Chapter 14 iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -2135,6 +2295,24 @@
 				7E1526BA19D4DE890013F222 /* White_Front1.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290DBA881A6666AB006998CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290DBAAE1A666830006998CB /* grossini-aliases.png in Resources */,
+				290DBAAD1A666830006998CB /* grossini-aliases.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290DBAB21A6668BF006998CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290DBADF1A666901006998CB /* grossini-aliases.plist in Resources */,
+				290DBAE01A666901006998CB /* grossini-aliases.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2583,6 +2761,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		290DBA8D1A6666AB006998CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290DBAA91A6666ED006998CB /* Chapter14.cpp in Sources */,
+				290DBAA71A6666ED006998CB /* AppDelegate.cpp in Sources */,
+				290DBA901A6666AB006998CB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290DBAC61A6668BF006998CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290DBADD1A6668F9006998CB /* AppDelegate.cpp in Sources */,
+				290DBADE1A6668F9006998CB /* Chapter14.cpp in Sources */,
+				290DBAC81A6668BF006998CB /* AppController.mm in Sources */,
+				290DBAC91A6668BF006998CB /* RootViewController.mm in Sources */,
+				290DBACB1A6668BF006998CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		296358DC19F78D4F003732AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2601,8 +2801,10 @@
 			files = (
 				2963594419F78F9D003732AB /* AppDelegate.cpp in Sources */,
 				2963594519F78F9D003732AB /* AppDelegate.h in Sources */,
+				290DBAA61A6666ED006998CB /* AppDelegate.cpp in Sources */,
 				2963594619F78F9D003732AB /* Chapter6.cpp in Sources */,
 				2963594719F78F9D003732AB /* Chapter6.h in Sources */,
+				290DBAA81A6666ED006998CB /* Chapter14.cpp in Sources */,
 				2963593219F78F74003732AB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2794,6 +2996,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		290DBA861A6666AB006998CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libcocos2d Mac";
+			targetProxy = 290DBA871A6666AB006998CB /* PBXContainerItemProxy */;
+		};
+		290DBAB01A6668BF006998CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libcocos2d iOS";
+			targetProxy = 290DBAB11A6668BF006998CB /* PBXContainerItemProxy */;
+		};
 		296358B919F78D4F003732AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libcocos2d iOS";
@@ -2943,6 +3155,126 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "Chapter 2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		290DBA9E1A6666AB006998CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mac/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_MAC,
+					"COCOS2D_DEBUG=1",
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../libs/cocos2d-x/cocos/platform/mac",
+					"$(SRCROOT)/../libs/cocos2d-x/external/glfw3/include/mac",
+				);
+				INFOPLIST_FILE = "Mac-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "Chapter 14 Mac";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		290DBA9F1A6666AB006998CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mac/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_MAC,
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../libs/cocos2d-x/cocos/platform/mac",
+					"$(SRCROOT)/../libs/cocos2d-x/external/glfw3/include/mac",
+				);
+				INFOPLIST_FILE = "Mac-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "Chapter 14 Mac";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		290DBAD91A6668BF006998CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ios/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					"COCOS2D_DEBUG=1",
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../libs/cocos2d-x/cocos/platform/ios",
+					"$(SRCROOT)/../libs/cocos2d-x/cocos/platform/ios/Simulation",
+				);
+				INFOPLIST_FILE = "iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "Chapter 14 iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		290DBADA1A6668BF006998CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ios/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../libs/cocos2d-x/cocos/platform/ios",
+					"$(SRCROOT)/../libs/cocos2d-x/cocos/platform/ios/Simulation",
+				);
+				INFOPLIST_FILE = "iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "Chapter 14 iOS";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -4016,6 +4348,24 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		290DBA9D1A6666AB006998CB /* Build configuration list for PBXNativeTarget "Chapter 14 Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290DBA9E1A6666AB006998CB /* Debug */,
+				290DBA9F1A6666AB006998CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		290DBAD81A6668BF006998CB /* Build configuration list for PBXNativeTarget "Chapter 14 iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290DBAD91A6668BF006998CB /* Debug */,
+				290DBADA1A6668BF006998CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
